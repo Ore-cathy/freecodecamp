@@ -1,0 +1,100 @@
+body{background-image: linear-gradient(to bottom, rgba(126, 233, 174, 0.85), rgba(143, 240, 164, 0.85)),  url("https://pixabay.com/get/54e9d5434352ac14f6da8c7dda6d49214b6ac3e45657754b742c7dd591/texture-2900900_1280.jpg");
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; }
+main, footer {
+    font-size: 2vw;
+    margin: auto;
+    padding: 1em;
+  }
+  
+  @media (min-width: 1024px) {
+  main, footer {
+    font-size: 1.5vw;
+    width: 75%;
+  }
+  }
+  
+  @media (min-width: 1536px) {
+  main, footer {
+    font-size: 1vw;
+    width: 50%;
+  }
+  }
+  
+  section {
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+  }
+  
+  article {
+    margin: auto;
+    width: 60%;
+  }
+  
+  aside {
+    margin: auto;
+    padding: 5%;
+    width: 40%;
+  }
+  
+  @media (max-width: 512px) {
+  section {
+    display: block;
+  }
+  
+  article {
+    width: 100%;
+  }
+  
+  aside {
+    width: 50%;
+  }
+  }
+  
+  summary {
+    cursor: pointer;
+    margin-left: 1em;
+  }
+  
+  details p {
+    margin-left: 1em;
+    margin-bottom: 0;  
+  }
+  
+  figure img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    padding-bottom: 10%
+  }
+  
+  figure figcaption {
+    font-size: larger;
+    text-align: center;
+  }
+  
+  footer {
+  
+    bottom: 0;
+    height: 1em;
+    margin: auto;
+    padding-bottom: 2em;
+    position: relative;
+  }
+  
+  footer span {
+    border: 4px double;
+    padding: 3px 5px;
+  }
+  
+  footer a {
+    font-style: italic;
+  }
+  
